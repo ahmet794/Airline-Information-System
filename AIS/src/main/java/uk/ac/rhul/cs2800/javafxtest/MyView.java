@@ -8,54 +8,61 @@ import javafx.scene.layout.VBox;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 
-public class MyView {
 
-    @FXML
-    private AnchorPane anchor_pane;
+/**
+ * The properties of the GUI is handled in this class.
+ * 
+ * @author ahmet
+ *
+ */
+public class MyView implements ViewInterface {
 
-    @FXML
-    private ListView<?> arr_list;
+  @FXML
+  private AnchorPane anchorpane;
 
-    @FXML
-    private Text arrival_title;
+  @FXML
+  private ListView<?> arrlist;
 
-    @FXML
-    private Text corp_title;
+  @FXML
+  private Text arrivaltitle;
 
-    @FXML
-    private ListView<?> dep_list;
+  @FXML
+  private Text corptitle;
 
-    @FXML
-    private Text departure_title;
+  @FXML
+  private ListView<?> deplist;
 
-    @FXML
-    private Text flight_title;
+  @FXML
+  private Text departuretitle;
 
-    @FXML
-    private Line line1;
+  @FXML
+  private Text flighttitle;
 
-    @FXML
-    private Line line2;
+  @FXML
+  private Line line1;
 
-    @FXML
-    private Line line3;
+  @FXML
+  private Line line2;
 
-    @FXML
-    private Line line4;
+  @FXML
+  private Line line3;
 
-    @FXML
-    private MenuBar menu_bar;
+  @FXML
+  private Line line4;
 
-    @FXML
-    private Text title;
+  @FXML
+  private MenuBar menubar;
 
-    @FXML
-    private ListView<?> train_list;
+  @FXML
+  private Text title;
 
-    @FXML
-    private VBox vbox;
+  @FXML
+  private ListView<?> trainlist;
 
-    @FXML
-    private Text version;
+  @FXML
+  private VBox vbox;
+
+  @FXML
+  private Text version;
 
 }
